@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('First');
 });
+
+Route::get('/second', function () {
+    return view('Second');
+});
+
+
+Route::post('/share/store', 'SharesController@store');
+

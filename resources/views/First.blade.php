@@ -45,6 +45,6 @@
                 </ul>
             </nav>
         </footer>
-    </main>
+    </main  >
 </body>
 </html>

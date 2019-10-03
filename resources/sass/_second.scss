@@ -1,0 +1,49 @@
+#rootSecond {
+	.contentSecond {
+		// background-color: red;
+		width:80%;
+		margin: 5rem auto;
+		
+		border:10px solid $lightGrey;
+		&>div{
+			padding: 5rem;
+			border:2px solid $grey;
+		}
+
+		&-header {
+			h1 {
+				font-weight: 900;
+			}
+			h6 {
+				color: $grey;	
+			}
+		}
+
+		.control{
+			margin: 1rem auto;
+			& div {
+				display: inline-block;
+				width: 45%;
+				margin: 0 1rem;
+			}
+			input {
+				width: 100%;
+				
+			}
+			button {
+				background-color:$white;
+				border:0; 
+
+				span {
+					background-color:#32a899;
+					color: #fff;
+					margin-right: 1rem;
+				}
+			}	
+
+		}
+		.rgt {
+			text-align: right;
+		}
+	}
+}

@@ -10729,3 +10729,51 @@ a.text-dark:focus {
   text-decoration: underline;
 }
 
+#rootSecond .contentSecond {
+  width: 80%;
+  margin: 5rem auto;
+  border: 10px solid #eee;
+}
+
+#rootSecond .contentSecond > div {
+  padding: 5rem;
+  border: 2px solid #aaa;
+}
+
+#rootSecond .contentSecond-header h1 {
+  font-weight: 900;
+}
+
+#rootSecond .contentSecond-header h6 {
+  color: #aaa;
+}
+
+#rootSecond .contentSecond .control {
+  margin: 1rem auto;
+}
+
+#rootSecond .contentSecond .control div {
+  display: inline-block;
+  width: 45%;
+  margin: 0 1rem;
+}
+
+#rootSecond .contentSecond .control input {
+  width: 100%;
+}
+
+#rootSecond .contentSecond .control button {
+  background-color: #fff;
+  border: 0;
+}
+
+#rootSecond .contentSecond .control button span {
+  background-color: #32a899;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+#rootSecond .contentSecond .rgt {
+  text-align: right;
+}
+
