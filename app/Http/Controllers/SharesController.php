@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Share;
+use App\Http\Controllers\Mail;
 
 class SharesController extends Controller
 {
@@ -22,8 +23,10 @@ class SharesController extends Controller
             
         ]);
 
+		
 		$request->session()->flash('alert-success', 'Information stored');
-        return redirect('second');
+
+        return redirect('send-mail/' . request('email'));
 	}
 }
 

@@ -22,3 +22,13 @@ Route::get('/second', function () {
 
 Route::post('/share/store', 'SharesController@store');
 
+Route::get('send-mail/{email}', function ($email) {
+   
+   	$details = [
+        'title' => 'Hello there, I am sharing with you',
+    ];
+   
+    \Mail::to($email)->send(new \App\Mail\MailFriend($details));
+   
+    dd("Email is Sent.");
+});
